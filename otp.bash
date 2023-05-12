@@ -17,8 +17,8 @@
 # []
 
 VERSION="1.1.2"
-OATH=$(which oathtool)
-OTPTOOL=$(which otptool)
+OATH=$(command -v oathtool)
+OTPTOOL=$(command -v otptool)
 
 if [[ $PASSAGE == 1 ]]; then
   EXT="age"
