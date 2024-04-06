@@ -157,7 +157,7 @@ pacman -S pass-otp
 `pass-otp` is available in `buster` and `sid` repositories with the package-name `pass-extension-otp` according to [tracker](https://tracker.debian.org/pkg/pass-otp):
 
 ```
-apt install pass-extension-otp
+apt install pass-otp
 ```
 
 ### Fedora
