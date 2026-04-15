@@ -1,0 +1,35 @@
+{
+  "enabled": 1,
+  "hidden": false,
+  "description": "",
+  "nixexprinput": "src",
+  "nixexprpath": ".hydra/jobsets.nix",
+  "checkinterval": 128,
+  "schedulingshares": 128,
+  "enableemail": false,
+  "emailoverride": "",
+  "keepnr": 3,
+  "type": 0,
+  "inputs": {
+    "src": {
+      "value": "https://git.shell.bsocat.net/pass-otp main",
+      "type": "git",
+      "emailresponsible": false
+    },
+    "nixpkgs": {
+      "type": "git",
+      "value": "https://git.shell.bsocat.net/nixpkgs nixos-unstable",
+      "emailresponsible": false
+    },
+    "prs": {
+      "type": "githubpulls",
+      "value": "benaryorg pass-otp",
+      "emailresponsible": false
+    },
+    "refs": {
+      "type": "github_refs",
+      "value": "benaryorg pass-otp heads",
+      "emailresponsible": false
+    }
+  }
+}

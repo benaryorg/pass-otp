@@ -1,7 +1,4 @@
-| Branch | Status |
-|--------|--------|
-| [**master**](https://github.com/tadfisher/pass-otp/tree/master) | [![Build Status: master](https://travis-ci.org/tadfisher/pass-otp.svg?branch=master)](https://travis-ci.org/tadfisher/pass-otp) |
-| [**develop**](https://github.com/tadfisher/pass-otp/tree/develop) | [![Build Status: develop](https://travis-ci.org/tadfisher/pass-otp.svg?branch=develop)](https://travis-ci.org/tadfisher/pass-otp) |
+[![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fhydra.cloud.bsocat.net%2Fjob%2Fpass-otp%2Fmain%2Fpass-otp%2Fshield)](https://hydra.cloud.bsocat.net/jobset/pass-otp/main#tabs-evaluations)
 
 # pass-otp
 
