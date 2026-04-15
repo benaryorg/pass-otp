@@ -183,8 +183,25 @@ with pkgs;
 pass.withExtensions (exts: [ exts.pass-otp ])
 ```
 
-The above can be installed imperatively via `nix-env` or ran in a temporary
-environment via `nix-shell`.
+The above can be installed imperatively via `nix-env` or ran in a temporary environment via `nix-shell`.
+
+This repository includes the necessary boilerplate to include any branch or commit into your configuration directly.
+For flakes the repository can be used as-is, for non-flake setups the *overlay.nix* can be included as such:
+
+```nix
+{ config, pkgs, lib, ... }:
+{
+  # [...]
+  nixpkgs.overlays = [
+    (import ((builtins.fetchTree {
+      type = "github";
+      owner = "benaryorg";
+      repo = "pass-otp";
+      version = "v1.3.0";
+    }) + "/overlay.nix"))
+  ];
+}
+```
 
 ### macOS
 #### Brew
