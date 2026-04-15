@@ -9,6 +9,7 @@
 - Use `command -v` (dropping the dependency on *which*). (thanks @pabs3)
 - Use pipes to pass secrets when available, avoiding secrets on the process list. (thanks @pabs3)
 - Nix parts revamped.
+- No stderr output when oathtool is not available.
 
 ## Version 1.2.0 *(2018-11-15)*
 
