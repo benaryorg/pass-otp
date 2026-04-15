@@ -1,5 +1,14 @@
 # Change Log
 
+## Ongoing
+
+- Do not break passwords without trailing newlines. (thanks @vincentbernat)
+- Add quiet mode (`-q`). (thanks @mkletzan)
+- Add support for using [*Pass::OTP*](https://metacpan.org/pod/Pass::OTP). (thanks @baierjan)
+- Support passage as backend. (thanks @remko)
+- Use `command -v` (dropping the dependency on *which*). (thanks @pabs3)
+- Use pipes to pass secrets when available, avoiding secrets on the process list. (thanks @pabs3)
+
 ## Version 1.2.0 *(2018-11-15)*
 
 * New: Bash completion is now supported. (thanks Zoltan Kertesz)
