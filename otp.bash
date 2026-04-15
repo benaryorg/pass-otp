@@ -446,9 +446,9 @@ cmd_otp_uri() {
   check_sneaky_paths "$path"
   [[ ! -f $passfile ]] && die "Passfile not found"
   if [[ $PASSAGE == 1 ]]; then
-    contents=$($AGE -d -i "$IDENTITIES_FILE" "$passfile")
+    contents=$("$AGE" -d -i "$IDENTITIES_FILE" "$passfile")
   else
-    contents=$($GPG -d "${GPG_OPTS[@]}" "$passfile")
+    contents=$("$GPG" -d "${GPG_OPTS[@]}" "$passfile")
   fi
 
   while read -r line; do
