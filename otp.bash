@@ -19,6 +19,7 @@
 VERSION="1.2.0"
 OATH=$(command -v oathtool)
 OTPTOOL=$(command -v otptool)
+AGE=$(command -v age)
 
 if [[ $PASSAGE == 1 ]]; then
   EXT="age"
