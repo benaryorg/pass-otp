@@ -2,6 +2,10 @@
 
 ## Ongoing
 
+- No changes yet.
+
+## Version 1.3.0 *(2026-04-15)*
+
 - Do not break passwords without trailing newlines. (thanks @vincentbernat)
 - Add quiet mode (`-q`). (thanks @mkletzan)
 - Add support for using [*Pass::OTP*](https://metacpan.org/pod/Pass::OTP). (thanks @baierjan)

@@ -18,7 +18,7 @@ assert withOath || withOtptool;
 
 stdenv.mkDerivation {
   pname = "pass-otp";
-  version = "1.2.0-unstable";
+  version = "1.3.0-unstable";
   src = ./.;
 
   buildInputs = [ oath-toolkit ];
