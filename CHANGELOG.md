@@ -1,16 +1,12 @@
-Change Log
-=============
+# Change Log
 
-Version 1.2.0 *(2018-11-15)*
--------------------------------
+## Version 1.2.0 *(2018-11-15)*
 
 * New: Bash completion is now supported. (thanks Zoltan Kertesz)
 * Fix getopt parsing; passing `--issuer` and `--account` should no longer hang.
   (thanks @xPMo)
 
-
-Version 1.1.1 *(2018-06-28)*
--------------------------------
+## Version 1.1.1 *(2018-06-28)*
 
 This is mainly a bugfix release.
 
@@ -25,8 +21,7 @@ This is mainly a bugfix release.
 In addition, thanks to @endgame and @brainstorm for their contributions to the
 documentation.
 
-Version 1.1.0 *(2018-03-04)*
--------------------------------
+## Version 1.1.0 *(2018-03-04)*
 
  * New: `insert` and `append` commands accept secret parameters directly using
    the `--secret`, `--issuer` and `--account` arguments.
@@ -34,8 +29,7 @@ Version 1.1.0 *(2018-03-04)*
  * Return an error status for `code` when the passfile does not contain an
    `otpauth://` entry.
 
-Version 1.0.0 *(2017-03-20)*
--------------------------------
+## Version 1.0.0 *(2017-03-20)*
 
  * New: `insert` command accepts `otpauth://` URIs directly.
  * New: `append` command appends or replaces OTP URIs in existing passfiles.
@@ -57,8 +51,7 @@ Version 1.0.0 *(2017-03-20)*
    Intrepid users may use `echo <uri> | pass otp insert`, but they should be
    warned to disable their shell's history feature.
 
-Version 0.1.0 *(2017-02-14)*
-----------------------------
+## Version 0.1.0 *(2017-02-14)*
 
  * Initial release.
  * Supports the following commands:
