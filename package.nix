@@ -65,7 +65,7 @@ stdenv.mkDerivation {
     description = "A pass extension for managing one-time-password (OTP) tokens";
     homepage = "https://github.com/tadfisher/pass-otp";
     license = lib.licenses.gpl3Plus;
-    maintainers = with lib.maintainers; [ benaryorg ];
+    maintainers = [ ];
     platforms = lib.platforms.unix;
   };
 }
